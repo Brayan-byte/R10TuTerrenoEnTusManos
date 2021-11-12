@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/userDataRegisterStyle.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <img src="/img/icono app principal1.png" alt="iconoR10" class="icon_header">
+    <h2>Ingresa los siguientes datos</h2>
+  </header>
+  <main>
+    <form action="" class="data_register_user_form_container">
+      <input type="text" name="user_name" id="user_name" placeholder="user name" class="user_input">
+      <input type="text" name="user_lastName" id="user_lastName" placeholder="last name" class="user_input">
+      <input type="number" name="user_age" id="user_age" placeholder="user age" class="user_input">
+      <input type="number" name="user_cell" id="user_cellPhone" placeholder="User cell phone" class="user_input">
+      <label for="gender">Selecciona tu genero</label>
+      <select name="gender" id="user_gender" class="user_input" class = "user_gender_label">
+        <option value="male">Hombre</option>
+        <option value="female">Mujer</option>
+        <option value="other">Otro</option>
+      </select>
+      <button type="submit" formaction="/html/home.html" id="enviar" class="send_data">enviar</button>
+    </form>
+  </main>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="/Scripts/generic.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="/Scripts/registerUserData.js"></script>
+</body>
+</html>

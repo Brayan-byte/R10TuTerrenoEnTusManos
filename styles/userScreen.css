@@ -1,0 +1,103 @@
+:root{
+  --blue:#0069D9;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 62.5%;
+  overflow-y: auto;
+}
+header{
+  margin: 7.5rem 0 3.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+main{
+  min-height: 620px;
+}
+.user_data_deplay_container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.user_input{
+  margin-bottom: 2.5rem;
+  width: 60%;
+  max-width: 225px;
+  text-align:left;
+  border-top: none;
+  border-right: none;
+  border-left:none;
+  border-color: #169DFF;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+
+.send_data{
+  width: 70%;
+  height: 3.8rem;
+  max-width: 262.5px;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  border-radius:2.8rem;
+  background-color: var(--blue);
+  color:white;
+  border-style: none;
+  align-self: center;
+}
+
+.edit_data{
+  width: 70%;
+  height: 3.8rem;
+  max-width: 262.5px;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  border-radius:2.8rem;
+  background-color: var(--blue);
+  color:white;
+  border-style: none;
+  align-self: center;
+}
+.info_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label{
+  margin-right: 168px;
+  margin-bottom: 5px;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #0069d9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0px;
+    position: fixed;
+    height: auto;
+}
+.option_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.link{
+  color: azure;
+}
+.icon{
+  width: 3.0rem;
+  height: 3.0rem;
+}

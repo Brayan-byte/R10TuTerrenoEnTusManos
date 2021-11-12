@@ -1,0 +1,70 @@
+:root{
+  --blue:#0069D9;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 62.5%;
+}
+header{
+  margin: 7.5rem 0 3.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--blue);
+}
+
+.data_register_user_form_container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.user_data_register{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_input{
+  margin-bottom: 2.5rem;
+  width: 60%;
+  max-width: 225px;
+  text-align:left;
+  border-top: none;
+  border-right: none;
+  border-left:none;
+  border-color: #169DFF;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+.user_gender_label{
+  margin-bottom: 2.5rem;
+  width: 60%;
+  text-align:left;
+  border-top: none;
+  border-right: none;
+  border-left:none;
+  border-color: #169DFF;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+.send_data{
+  width: 70%;
+  height: 3.8rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  border-radius:2.8rem;
+  background-color: var(--blue);
+  color:white;
+  border-style: none;
+  align-self: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/userEmailRegisterStyle.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <img src="/img/flecha-correcta.png" alt="return-arrow" class="arrow-icon" id="return">
+    <img src="/img/icono app principal1.png" alt="iconoR10" class="icon_header">
+    <h2>Crea una Cuenta</h2>
+    <h4>Rellena los siguientes campos</h4>
+  </header>
+  <main>
+    <section class="data_user_fill_container">
+      <form action="" class="user_data_register" id="user_data_register">
+        <input type="text" class = "user_input" name="user_email" id="user_email" placeholder="Escribe tu email">
+        <input type="text" class = "user_input" name="confirm_user_email" id="confirm_user_email" placeholder="Confirma tu email">
+        <input type="password" class = "user_input" name="user_password" id="user_password" placeholder="Contraseña">
+        <input type="password" class = "user_input" name="user_password_confirm" id="user_password_confirm" placeholder="Confirma Contraseña">
+        <button type="button" class="register_button" id="register_button_2">Registrarse</button>
+        <p id = "error_message"></p>
+
+      </form>
+    </section>
+  </main>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="/Scripts/generic.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="/Scripts/registerEmail.js"></script>
+</body>
+
+</html>

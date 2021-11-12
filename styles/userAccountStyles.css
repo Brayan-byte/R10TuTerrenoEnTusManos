@@ -1,0 +1,179 @@
+:root{
+  --blue:#0069D9;
+}
+*{
+  margin: 0;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5% !important;
+  font-family: 'Gemunu Libre', sans-serif !important;
+  overflow-y: scroll;
+  
+}
+header{
+  text-align: center;
+  color: #0069d9;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 34px !important;
+}
+
+main{
+  width: 100%;
+  min-height: 620px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  
+}
+.terrenos_comprados{
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.Titulo{
+  font-size: 24px;
+  color: #0069d9;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+ul{
+  border: black solid 0.5px;
+  width: 100%;
+  list-style: none;
+  padding: 5px !important;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+img{
+  border-radius: 5px;
+  width: 150px;
+  height: 100px;
+    display:block;
+    margin:auto;
+}
+li{
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.priceTitle{
+  font-size: 18px;
+  font-weight: bold;
+  color: #0069d9;
+}
+
+.radio-container{
+  max-width: 300px;
+  width: 70%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  border: black solid 1px;
+  margin-top: 60px;
+  border-radius: 10px;
+  
+}
+.radio-container h5{
+  color: var(--blue);
+  font-weight: bold;
+  margin-left: 10px;
+}
+.radio-container .date{
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.radio_button{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.input_number{
+  margin-left: 5px;
+  width: 135px;
+  border-top: none;
+  border-right: none;
+  border-left:none;
+  border-color: #169DFF;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+.radio-container-header{
+  display: flex;
+  flex-direction: row;
+}
+label{
+  font-size: 14px;
+}
+label p{
+ display: inline-block;
+}
+
+.button-container{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abonar{
+  width: 70%;
+  height: 3.8rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  border-radius:2.8rem;
+  background-color: var(--blue);
+  color:white;
+  border-style: none;
+}
+
+footer{
+  width: 100%;
+  background-color: #0069d9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.option_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.link{
+  color: azure;
+  font-size: 12px;
+}
+.icon{
+  width: 3.0rem;
+  height: 3.0rem;
+}
+footer{
+  bottom: 0px;
+  position: fixed;
+  height: auto;
+}
+footer a{
+  text-decoration:none;
+}

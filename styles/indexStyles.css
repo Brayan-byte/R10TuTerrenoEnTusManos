@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 62.5%;
+}
+.carousel-inner{
+  overflow-x:scroll;
+}
+.carousel-indicators{
+  top: 730px;
+  bottom: 1px;
+  position: fixed;
+  
+}
+
+.carousel-control-prev-icon {
+  background-color: #0069D9;
+}
+.carousel-control-next-icon{
+  background-color: #0069D9;
+}
+.w-100{
+  height: 680px;
+}
+
+.button-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ingresar{
+  width: 70%;
+  height: 3.8rem;
+  margin-top: 1.0rem;
+  font-size: 1.5rem;
+  border-radius:2.8rem;
+  background-color: #0069D9;
+  color:white;
+  border-style: none;
+}
