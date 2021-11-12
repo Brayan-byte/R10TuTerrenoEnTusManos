@@ -68,3 +68,7 @@ header{
   border-style: none;
   align-self: center;
 }
+
+.send_data:hover{
+  background-color: #015896;
+}

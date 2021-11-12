@@ -48,6 +48,9 @@ button{
   border-style: none;
   text-align: center;
 }
+button:hover{
+  background-color: #015896;
+}
 footer{
   width: 100%;
   height: auto;

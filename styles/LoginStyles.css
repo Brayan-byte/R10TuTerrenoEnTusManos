@@ -61,6 +61,7 @@ header{
   border-bottom-style: solid;
   border-bottom-width: thin;
 }
+
 .user_input_section_password{
   width: 70%;
   display: flex;
@@ -95,6 +96,12 @@ header{
   color:white;
   border-style: none;
   
+}
+.register_button:hover{
+  background-color: #015896;
+}
+.login_button:hover{
+  background-color: #015896;
 }
 .login_button{
   width: 70%;

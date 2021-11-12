@@ -63,3 +63,7 @@ header .arrow-icon{
   border-style: none;
   align-self: center;
 }
+
+.register_button:hover{
+  background-color: #015896;
+}

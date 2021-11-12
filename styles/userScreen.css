@@ -55,7 +55,9 @@ main{
   border-style: none;
   align-self: center;
 }
-
+.send_data:hover{
+  background-color: #015896;
+}
 .edit_data{
   width: 70%;
   height: 3.8rem;
@@ -67,6 +69,9 @@ main{
   color:white;
   border-style: none;
   align-self: center;
+}
+.edit_data:hover{
+  background-color: #015896;
 }
 .info_container{
   width: 100%;

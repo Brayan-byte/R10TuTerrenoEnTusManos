@@ -40,12 +40,15 @@ form{
   justify-content: center;
 }
 .ingresar{
-  width: 70%;
-  height: 3.8rem;
+  width: 25%;
+  height: 2.8rem;
   margin-top: 1.0rem;
   font-size: 1.5rem;
   border-radius:2.8rem;
   background-color: #0069D9;
   color:white;
   border-style: none;
+}
+.ingresar:hover{
+  background-color: #015896;
 }
