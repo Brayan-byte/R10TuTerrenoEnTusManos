@@ -95,7 +95,7 @@ img{
   border-style: none;
 }
 .button_select:hover{
-  background-color: #015896;
+  background-color: #015896 !important;
 }
 .button-container{
   width: 100%;
@@ -118,7 +118,7 @@ img{
 
 }
 .Buy:hover{
-  background-color: #015896;
+  background-color: #015896 !important;
 }
 .Cita{
   margin: 5px 60px;
